@@ -2,7 +2,7 @@ import easyocr
 from helpers import nigeria
 
 # read image file
-IMAGE_PATH = 'passport4.jpg'
+IMAGE_PATH = 'samplepassport.jpg'
 
 # extract text from image
 reader = easyocr.Reader(['en'], gpu=False)
